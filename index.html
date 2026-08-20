@@ -23,13 +23,83 @@ width:100%;
 height:auto;
 display:block;
 }
+
+.landing-page {
+    position: relative;
+    width: 100%;
+}
+
+.hotspot {
+    position: absolute;
+    top: 1.8%;
+    height: 3.5%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.home {
+    left: 30%;
+    width: 8%;
+}
+
+.story {
+    left: 39%;
+    width: 12%;
+}
+
+.coffee {
+    left: 51%;
+    width: 10%;
+}
+
+.contact {
+    left: 62%;
+    width: 10%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.scroll-target {
+    position: absolute;
+    left: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.coffee-target {
+    top: 18%;
+}
+
+.story-target {
+    top: 64%;
+}
+
+.contact-target {
+    top: 90%;
+}
+  
 </style>
 
 </head>
 
 <body>
 
-<img src="Landing-Page.png" alt="Mesek Coffee">
+<div class="landing-page">
+
+    <img src="Landing-Page.png" alt="Mesek Coffee">
+
+<div id="coffee" class="scroll-target coffee-target"></div>
+<div id="story" class="scroll-target story-target"></div>
+<div id="contact" class="scroll-target contact-target"></div>
+
+    <a class="hotspot home" href="/" aria-label="Home"></a>
+    <a class="hotspot story" href="#story" aria-label="Our Story"></a>
+    <a class="hotspot coffee" href="#coffee" aria-label="Coffee"></a>
+    <a class="hotspot contact" href="#contact" aria-label="Contact"></a>
+
+</div>
 
 </body>
 </html>
