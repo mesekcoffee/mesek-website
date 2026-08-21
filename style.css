@@ -468,4 +468,25 @@ footer {
     .section {
         padding: 70px 20px;
     }
+
+.story-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.story-visual img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.12);
+}
+
+@media (max-width: 800px) {
+    .story-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
 }
