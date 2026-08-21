@@ -1,105 +1,358 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<link rel="icon" type="image/png" href="Favicon.png">
-<title>Mesek Coffee | Premium Ground Coffee</title>
-  
-<meta name="description" content="Mesek Coffee offers premium ground coffee inspired by coffee traditions from around the world. Discover rich flavor, aroma, and thoughtfully crafted coffee."> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="robots" content="index, follow"> 
+    <title>Mesek Coffee | Premium Ground Coffee</title>
 
-<link rel="canonical" href="https://mesekcoffee.com/">
+    <meta name="description"
+          content="Discover Mesek Coffee, premium ground coffee inspired by traditions from around the world. Explore Damascus Night, Milano Amore and Paris Noir.">
 
-<style>
-html,body{
-margin:0;
-padding:0;
-background:#f8f4ed;
-}
+    <meta name="robots" content="index, follow">
 
-img{
-width:100%;
-height:auto;
-display:block;
-}
+    <link rel="canonical" href="https://mesekcoffee.com/">
+    <link rel="icon" type="image/png" href="Favicon.png">
 
-.landing-page {
-    position: relative;
-    width: 100%;
-}
+    <!-- Main website design -->
+    <link rel="stylesheet" href="style.css">
 
-.hotspot {
-    position: absolute;
-    top: 1.8%;
-    height: 3.5%;
-    z-index: 10;
-    cursor: pointer;
-}
+    <!-- Social sharing -->
+    <meta property="og:title" content="Mesek Coffee | Premium Ground Coffee">
+    <meta property="og:description"
+          content="A journey through coffee traditions, crafted into every cup.">
+    <meta property="og:image"
+          content="https://mesekcoffee.com/Landing-Page.png">
+    <meta property="og:url"
+          content="https://mesekcoffee.com/">
+    <meta property="og:type" content="website">
 
-.home {
-    left: 30%;
-    width: 8%;
-}
-
-.story {
-    left: 39%;
-    width: 12%;
-}
-
-.coffee {
-    left: 51%;
-    width: 10%;
-}
-
-.contact {
-    left: 62%;
-    width: 10%;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-.scroll-target {
-    position: absolute;
-    left: 0;
-    width: 1px;
-    height: 1px;
-}
-
-.coffee-target {
-    top: 18%;
-}
-
-.story-target {
-    top: 64%;
-}
-
-.contact-target {
-    top: 90%;
-}
-  
-</style>
-
+    <meta name="twitter:card" content="summary_large_image">
 </head>
+
 
 <body>
 
-<div class="landing-page">
 
-    <img src="Landing-Page.png" alt="Mesek Coffee">
+<!-- =====================================
+     HEADER
+===================================== -->
 
-<div id="coffee" class="scroll-target coffee-target"></div>
-<div id="story" class="scroll-target story-target"></div>
-<div id="contact" class="scroll-target contact-target"></div>
+<header class="site-header">
 
-    <a class="hotspot home" href="/" aria-label="Home"></a>
-    <a class="hotspot story" href="#story" aria-label="Our Story"></a>
-    <a class="hotspot coffee" href="#coffee" aria-label="Coffee"></a>
-    <a class="hotspot contact" href="#contact" aria-label="Contact"></a>
+    <nav class="navbar">
 
-</div>
+        <a href="#home" class="brand">
+            MESEK
+            <span>COFFEE</span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#coffee">Coffee</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+
+
+<!-- =====================================
+     HERO
+===================================== -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-inner">
+
+        <div class="hero-copy">
+
+            <div class="eyebrow">
+                Premium Ground Coffee
+            </div>
+
+            <h1>
+                MESEK
+                <span>COFFEE</span>
+            </h1>
+
+            <p class="hero-description">
+                Tradition in every cup. Mesek Coffee brings together
+                distinctive coffee traditions, rich aromas and carefully
+                crafted roasts designed for different ways of brewing.
+            </p>
+
+            <a href="#coffee" class="button">
+                Explore Our Coffee
+            </a>
+
+            <a href="#story" class="button button-outline">
+                Our Story
+            </a>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <img src="damascus-night.png"
+                 alt="Mesek Coffee Damascus Night premium ground coffee">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     COFFEE COLLECTION
+===================================== -->
+
+<section class="section coffee-section" id="coffee">
+
+    <div class="section-inner">
+
+        <div class="section-heading">
+
+            <span>The Collection</span>
+
+            <h2>A Journey Through Coffee</h2>
+
+            <p>
+                Three distinct coffees inspired by different traditions,
+                each crafted for its own brewing experience.
+            </p>
+
+        </div>
+
+
+        <div class="coffee-grid">
+
+
+            <!-- DAMASCUS NIGHT -->
+
+            <article class="coffee-card">
+
+                <img src="damascus-night.png"
+                     alt="Damascus Night traditional Turkish coffee">
+
+                <div class="coffee-card-content">
+
+                    <h3>Damascus Night</h3>
+
+                    <p>
+                        Traditional Turkish coffee with a rich,
+                        aromatic character and a medium-dark roast.
+                    </p>
+
+                    <p>
+                        Fine ground • Turkish preparation
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- MILANO AMORE -->
+
+            <article class="coffee-card">
+
+                <img src="milano-amore.png"
+                     alt="Milano Amore medium ground coffee">
+
+                <div class="coffee-card-content">
+
+                    <h3>Milano Amore</h3>
+
+                    <p>
+                        Smooth and balanced medium-dark coffee
+                        designed for an inviting everyday cup.
+                    </p>
+
+                    <p>
+                        Medium fine ground • Drip & Moka Pot
+                    </p>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PARIS NOIR -->
+
+            <article class="coffee-card">
+
+                <img src="paris-noir.png"
+                     alt="Paris Noir dark roast ground coffee">
+
+                <div class="coffee-card-content">
+
+                    <h3>Paris Noir</h3>
+
+                    <p>
+                        A deeper dark roast with a bold,
+                        full-bodied profile made for slower brewing.
+                    </p>
+
+                    <p>
+                        Medium-coarse ground • Drip & French Press
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     OUR STORY
+===================================== -->
+
+<section class="section story" id="story">
+
+    <div class="story-grid">
+
+        <div class="story-image">
+
+            <img src="Landing-Page.png"
+                 alt="Mesek Coffee collection">
+
+        </div>
+
+
+        <div class="story-text">
+
+            <div class="eyebrow">
+                Our Story
+            </div>
+
+            <h2>
+                Coffee Made for the Journey
+            </h2>
+
+            <p>
+                Mesek Coffee was created around a simple idea:
+                coffee can tell the story of a place.
+            </p>
+
+            <p>
+                Our collection brings together distinctive brewing
+                traditions and flavor profiles, from the intense
+                character of Turkish coffee to familiar European
+                brewing styles.
+            </p>
+
+            <p>
+                Every Mesek package combines coffee, craft and
+                visual storytelling into an experience designed
+                to be remembered.
+            </p>
+
+            <a href="#coffee" class="button">
+                Discover the Collection
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================
+     COMING SOON / EMAIL
+===================================== -->
+
+<section class="newsletter">
+
+    <div class="section-inner">
+
+        <div class="eyebrow">
+            Our Website Is Brewing
+        </div>
+
+        <h2>Coming Soon</h2>
+
+        <p>
+            Be among the first to know when Mesek Coffee officially
+            launches. Join our list for product news and availability.
+        </p>
+
+        <form class="newsletter-form" id="newsletter-form">
+
+            <input
+                type="email"
+                name="email"
+                placeholder="Enter your email address"
+                aria-label="Email address"
+                required>
+
+            <button type="submit">
+                Notify Me
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =====================================
+     FOOTER
+===================================== -->
+
+<footer id="contact">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+            MESEK COFFEE
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#coffee">Coffee</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <p>
+            Premium coffee. Distinct traditions. One journey.
+        </p>
+
+        <div class="copyright">
+            © 2026 Mesek Coffee. All rights reserved.
+        </div>
+
+    </div>
+
+</footer>
+
 
 </body>
 </html>
