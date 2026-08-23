@@ -288,7 +288,7 @@ img {
 
 .story {
     background: var(--cream-dark);
-    padding-bottom: 0;
+    padding-bottom: 0 !important;
 }
 
 .story-grid {
@@ -317,10 +317,10 @@ img {
 
 .newsletter {
     padding: 90px 30px;
+    padding-top: 0 !important;
     background: var(--green);
     color: white;
     text-align: center;
-   padding-top: 0;
 }
 
 .newsletter h2 {
