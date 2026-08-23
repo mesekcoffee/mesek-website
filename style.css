@@ -111,7 +111,7 @@ img {
     width: 100%;
     max-width: 1250px;
     margin: auto;
-    padding: 40px 30px 55px;
+    padding: 20px 30px 30px;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
