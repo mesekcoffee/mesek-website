@@ -124,7 +124,8 @@ img {
     height: 240px;
     object-fit: contain;
     display: block;
-    margin-left: 18px;
+    margin-left: -15px;
+    margin-bottom: 25px;
 }
 
 .eyebrow {
