@@ -513,3 +513,24 @@ mask-image: radial-gradient(
         gap: 35px;
     }
 }
+
+.mosaic-divider {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background: #050505;
+}
+
+.mosaic-divider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+@media (max-width: 800px) {
+    .mosaic-divider {
+        height: 90px;
+    }
+}
