@@ -120,12 +120,12 @@ img {
 }
 
 .hero-logo {
-    width: 240px;
-    height: 240px;
+    width: 210px;
+    height: 210px;
     object-fit: contain;
     display: block;
     margin-left: -15px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .eyebrow {
