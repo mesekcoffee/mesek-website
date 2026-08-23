@@ -160,11 +160,18 @@ img {
     line-height: 1.8;
 }
 
+.hero-image {
+    width: 100%;
+    overflow: visible;
+}
+
 .hero-image img {
-    max-height: 650px;
-    margin: auto;
+    width: 115%;
+    max-width: none;
+    height: auto;
+    display: block;
+    margin-left: -5%;
     object-fit: contain;
-    filter: drop-shadow(0 25px 30px rgba(0,0,0,.22));
 }
 
 /* BUTTONS */
@@ -495,8 +502,12 @@ footer {
     }
 
     .hero-image img {
-        max-height: 480px;
-    }
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+    margin-left: 0;
+}
 
     .coffee-grid {
         grid-template-columns: 1fr;
