@@ -520,19 +520,21 @@ mask-image: radial-gradient(
     overflow: hidden;
     line-height: 0;
     background: #f7f5f0;
-
     position: relative;
     left: 50%;
     margin-left: -50vw;
 }
 
 .mosaic-divider img {
-    width: 100%;
+    width: 120%;
     height: 180px;
     object-fit: cover;
     object-position: center;
     display: block;
+    margin-left: -10%;
+    transform: scale(1.35);
 }
+   
 @media (max-width: 800px) {
     .mosaic-divider,
     .mosaic-divider img {
