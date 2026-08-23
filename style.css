@@ -177,18 +177,18 @@ img {
     -webkit-mask-image: linear-gradient(
         to right,
         transparent 0%,
-        rgba(0,0,0,0.15) 5%,
-        rgba(0,0,0,0.75) 12%,
-        black 20%,
+        rgba(0,0,0,0.35) 3%,
+        rgba(0,0,0,0.85) 7%,
+        black 12%,
         black 100%
     );
 
     mask-image: linear-gradient(
         to right,
         transparent 0%,
-        rgba(0,0,0,0.20) 8%,
-        rgba(0,0,0,0.65) 18%,
-        black 32%,
+        rgba(0,0,0,0.35) 3%,
+        rgba(0,0,0,0.85) 7%,
+        black 12%,
         black 100%
     );
 }
