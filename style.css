@@ -512,22 +512,41 @@ footer {
     }
 
     .hero-inner {
-        grid-template-columns: 1fr;
-        padding: 65px 22px;
-        text-align: center;
-    }
+    grid-template-columns: 1fr;
+    padding: 25px 20px 35px;
+    text-align: center;
+    gap: 25px;
+    transform: none;
+}
+
+.hero-image {
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: none;
+    margin-left: 0;
+    object-fit: contain;
+
+    -webkit-mask-image: none;
+    mask-image: none;
+}
 
     .hero-description {
         margin-left: auto;
         margin-right: auto;
     }
 
-    .hero-image img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    max-height: none;
-    margin-left: 0;
+    .hero-logo {
+    width: 155px;
+    height: 155px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
     .coffee-grid {
