@@ -286,10 +286,11 @@ img {
 
 /* STORY */
 
-.story {
+.section.story {
     background: var(--cream-dark);
     padding-bottom: 0 !important;
 }
+
 
 .story-grid {
     max-width: 1150px;
@@ -315,7 +316,7 @@ img {
 
 /* NEWSLETTER */
 
-.newsletter {
+section.newsletter {
     padding: 90px 30px;
     padding-top: 0 !important;
     background: var(--green);
