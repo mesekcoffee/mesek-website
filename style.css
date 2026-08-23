@@ -171,15 +171,15 @@ img {
     max-width: none;
     height: auto;
     display: block;
-    margin-left: -18%;
+    margin-left: -10%;
     object-fit: contain;
 
     -webkit-mask-image: linear-gradient(
         to right,
         transparent 0%,
-        rgba(0,0,0,0.20) 8%,
-        rgba(0,0,0,0.65) 18%,
-        black 32%,
+        rgba(0,0,0,0.15) 5%,
+        rgba(0,0,0,0.75) 12%,
+        black 20%,
         black 100%
     );
 
