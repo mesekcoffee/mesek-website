@@ -526,15 +526,23 @@ mask-image: radial-gradient(
     flex-direction: column;
 }
 
-.header-logo {
-    width: 48px;
-    height: 48px;
+/* Small logo in header */
+.brand img.header-logo {
+    width: 45px !important;
+    height: 45px !important;
+    max-width: 45px !important;
+    max-height: 45px !important;
     object-fit: contain;
+    flex-shrink: 0;
 }
 
-.hero-logo {
-    width: 130px;
-    height: auto;
+/* Large logo in hero */
+.hero-copy img.hero-logo {
+    width: 130px !important;
+    height: 130px !important;
+    max-width: 130px !important;
+    max-height: 130px !important;
+    object-fit: contain;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
