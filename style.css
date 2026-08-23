@@ -513,3 +513,28 @@ mask-image: radial-gradient(
         gap: 35px;
     }
 }
+/* Mesek logos */
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.hero-logo {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
