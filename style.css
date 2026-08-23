@@ -516,28 +516,26 @@ mask-image: radial-gradient(
 
 .mosaic-divider {
     width: 100vw;
-    height: 180px;
-    overflow: hidden;
-    line-height: 0;
-    background: #f7f5f0;
+    height: 170px;
+
     position: relative;
     left: 50%;
     margin-left: -50vw;
-}
 
-.mosaic-divider img {
-    width: 120%;
-    height: 180px;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    margin-left: -10%;
-    transform: scale(1.35);
+    background-image: url("mesek-pattern.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin-top: 0;
+    margin-bottom: 0;
 }
+   .mosaic-divider img{
+      display: none;
+   }
    
 @media (max-width: 800px) {
-    .mosaic-divider,
-    .mosaic-divider img {
-        height: 100px;
+    .mosaic-divider {
+        height: 90px;
     }
 }
