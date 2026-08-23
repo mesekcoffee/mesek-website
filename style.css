@@ -532,6 +532,10 @@ mask-image: radial-gradient(
    
 @media (max-width: 800px) {
     .mosaic-divider img {
-        height: 90px;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: block;
     }
 }
+
