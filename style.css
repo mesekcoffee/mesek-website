@@ -284,9 +284,12 @@ img {
 }
 
 .coffee-card {
+    display: block;
     background: #1a1916;
     border: 1px solid rgba(213,173,88,.3);
     text-align: center;
+    text-decoration: none;
+    color: inherit;
     overflow: hidden;
     transition: transform .3s ease, border-color .3s ease;
 }
@@ -294,6 +297,11 @@ img {
 .coffee-card:hover {
     transform: translateY(-8px);
     border-color: var(--gold);
+}
+
+.coffee-card:focus-visible {
+    outline: 3px solid var(--gold-light);
+    outline-offset: 4px;
 }
 
 .coffee-card img {
@@ -319,6 +327,18 @@ img {
     font-family: Arial, sans-serif;
     font-size: 14px;
     margin-top: 10px;
+}
+
+.coffee-card-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding-bottom: 4px;
+    color: var(--gold-light);
+    border-bottom: 1px solid currentColor;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
 }
 
 /* STORY */
