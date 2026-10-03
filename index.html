@@ -338,20 +338,39 @@
             launches. Join our list for product news and availability.
         </p>
 
-        <form class="newsletter-form" id="newsletter-form">
+        <form
+    class="newsletter-form"
+    id="newsletter-form"
+    action="https://formsubmit.co/mesekcoffee@outlook.com"
+    method="POST">
 
-            <input
-                type="email"
-                name="email"
-                placeholder="Enter your email address"
-                aria-label="Email address"
-                required>
+    <input
+        type="hidden"
+        name="_subject"
+        value="New Mesek Coffee Launch Signup">
 
-            <button type="submit">
-                Notify Me
-            </button>
+    <input
+        type="hidden"
+        name="_template"
+        value="table">
 
-        </form>
+    <input
+        type="hidden"
+        name="_next"
+        value="https://mesekcoffee.com/signup-thank-you.html">
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Enter your email address"
+        aria-label="Email address"
+        required>
+
+    <button type="submit">
+        Notify Me
+    </button>
+
+</form>
 
     </div>
 
